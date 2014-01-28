@@ -1,4 +1,2 @@
 amsolomon.github.io
 ===================
-
-## S
