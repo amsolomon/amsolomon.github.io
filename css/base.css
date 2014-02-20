@@ -24,7 +24,7 @@ header h1 {
     float: left;
     font-family: helvetical, arial, sans-serif;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 300;
     padding: 10px; /* TRouBLe */
 } 
 
@@ -51,6 +51,7 @@ header a:hover {
 header a:active {
     text-decoration: underline;
 }
+
 header a:focus {}
 
 article {
