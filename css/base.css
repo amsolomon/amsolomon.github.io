@@ -1,10 +1,14 @@
+/* This is the syntax for a CSS comment. */
+
+/* Typically you put all of your general element styles at the top. */
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 5px
 }    
 
 body {
+    background-color: #ffffff;
     font-family: georgia, serif;
     font-size: 16px;
     line-height: 24px;
@@ -12,41 +16,37 @@ body {
 
 p {
     margin-bottom: 16px;
-}   
-
-header {
-    background-color: #000000;
-    color: #ffffff;
-    height: 44px;
-}
-
-header h1 {
-    float: left;
-    font-family: helvetical, arial, sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    padding: 10px; /* TRouBLe */
-} 
-
-header nav {
-    float: left;
-    margin-top: 12px;   
-}
-
-header nav a {
-    border: 5px solid red;   
 }    
 
+header {
+    float: left
+    background-color: #ffffff;
+    color: #ffffff;
+    height: 150px;
+    
+}    
+
+header img {
+    float: left;
+    padding: 0px; /* TRouBLe */
+    margin-right: 50px;
+}
+    
+header nav {
+    margin-top: 60px;
+    
+}
+
 header a {
-    color: #aaaaaa;
-    margin-right: 20px;
+    color: #000000;
+    margin-right: 50px;
     text-decoration: none;
 }
 
 header a:link {}
 header a:visited {}
 header a:hover {
-    color: #ffffff;          
+    color: #cccccc;          
 } 
 header a:active {
     text-decoration: underline;
@@ -55,23 +55,57 @@ header a:active {
 header a:focus {}
 
 article {
+    float: left;
     clear: both;
-    padding: 0 10px 0 10px;
+    width: 100%;
+    padding 0 10px 0px 10px;
+}    
+
+figure img {
+    width: 50%
+    height: 300px;
+    float: right;
+    margin: 5px 5% 5px 5%;
+    padding: 5px 5% 5px 5%;
+}
+
+figure figcaption {
+    width: 50%;
+    height: 30px;
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    clear:both
 }
 
 article h1 {
+	color: #111111;
+    font-family: georgia, serif;
     font-size: 36px;
-    line-height: 44px;
-    margin-top: 4px;
+    line-height: 44px
+    
 }
 
 article h2 {
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 4px;
-}    
-
+    color: #111111;
+    font-family: georgia, serif;
+    line-height: 44px
+    
+}  
+  
 footer {
-    font-size: 10px;
-    padding: 0 10px 0 10px;   
+    clear: both;
+    color: #000000;
+    padding: 0 10px 0 10px;
 }
+
+@media screen and (max-width: 600px)
+    
+    nav {
+        
+    
+    
+    
+}
+    
