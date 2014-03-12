@@ -4,7 +4,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 5px
+    padding: 5px;
 }    
 
 body {
@@ -12,6 +12,11 @@ body {
     font-family: georgia, serif;
     font-size: 16px;
     line-height: 24px;
+}
+
+div {
+    border-style: solid;
+    border-width: 5px; 
 }
 
 p {
@@ -62,21 +67,19 @@ article {
 }    
 
 figure img {
-    width: 50%
-    height: 300px;
+    width:25%;
     float: right;
     margin: 5px 5% 5px 5%;
     padding: 5px 5% 5px 5%;
 }
 
-figure figcaption {
-    width: 50%;
+    figcaption {
+    width: 25%;
     height: 30px;
     float: right;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 5px 5% 5px 5%;
     margin-bottom: 5px;
-    clear:both
+    clear:both;
 }
 
 article h1 {
@@ -95,6 +98,7 @@ article h2 {
 }  
   
 footer {
+    width: 50%;
     clear: both;
     color: #000000;
     padding: 0 10px 0 10px;
