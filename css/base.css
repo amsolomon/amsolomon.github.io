@@ -1,6 +1,4 @@
-/* This is the syntax for a CSS comment. */
-
-/* Typically you put all of your general element styles at the top. */
+/*general element styles. */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,6 +23,7 @@ p {
     margin-bottom: 16px;
 }    
 
+/*header elements */
 header {
     float: left
     background-color: #ffffff;
@@ -64,44 +63,43 @@ header a:active {
 
 header a:focus {}
 
+/*article container that includes an img w/in a fig, and a section container.*/
+
 article {
     float: left;
-    clear: both;
     width: 100%;
     padding 0 10px 0px 10px;
 }   
 
+/*figure w/ cption in the article container */
 figure {
-    width: 30%;
-    height: 500px;
-}
+    width: 25%;
+    height: 370px;
+} /* makes figure container w/ image responsive */
 
-    figure img {
+figure img {
     border:solid;
     float: left;
     /*padding: 0px;*/
     /*margin-right; 50px;*/
     width:100%;
+} /* styles the image. */
+
+/* Floating the section container with the article text to the right */
+section {
+    width: 70%;
+    float:right;
 }
 
-    /*figcaption {
-    width: 25%;
-    height: 30px;
-    float: right;
-    margin: 5px 5% 5px 5%;
-    margin-bottom: 5px;
-    clear:both;*/
-}
-
-article h1 {
+/* More specific text design in the section container */
+section h1 {
 	color: #111111;
     font-family: georgia, serif;
     font-size: 36px;
-    line-height: 44px
-    
+    line-height: 44px    
 }
 
-article h2 {
+section h2 {
     color: #111111;
     font-family: georgia, serif;
     line-height: 44px
