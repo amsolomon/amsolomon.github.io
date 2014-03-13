@@ -25,7 +25,7 @@ p {
 }    
 
 /*header elements */
-header {
+header .pages {
     float: left
     background-color: #ffffff;
     color: #ffffff;
@@ -41,6 +41,11 @@ header img {
     margin-left: 5px;
     width:25%;
 }
+
+.centerlogo {
+    margin-left: 200px;
+
+}
     
 header nav {
     margin-top: 50px;
@@ -50,6 +55,22 @@ header nav {
     /*background-color: #c0c0c0;*/
 }
 
+header aside {
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 65%;
+    float:right;
+}
+
+/*.multinav1 {
+    width: 100%;
+    float:left; 
+} */
+
+/*.multinav1 {
+    width: 100%;
+    float: right;
+} */
 
 header a {
     color: #000000;
