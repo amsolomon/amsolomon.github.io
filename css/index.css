@@ -15,8 +15,8 @@ body {
 div {
     border-style: solid;
     border-width: 5px;
-    margin-left: 20%;
-    margin-right: 20%;        
+    margin-left: 15%;
+    margin-right: 15%;        
 }
 
 p {
@@ -25,48 +25,57 @@ p {
 
 /*header elements */
 header {
-    float: left
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: #ffffff;
     color: #ffffff;
     height: 150px;
-    width: 100%
-    
 }    
 
 header img {
     float: left;
     padding: 0px; /* TRouBLe */
-    *margin-right: 0px;
-    margin-left: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
     width:25%;
 }
-
-.highlightit img{
-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
--moz-opacity: 1;
-opacity: 1;
-}
-
-.highlightit:hover img{
-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
--moz-opacity: 0.5;
-opacity: 0.5;
-}
     
-header nav {
+header navleft {
+    float:left;
     margin-top: 50px;
-    margin-right: 10px;
-    width: 65%;
-    float:right;
-    
+    margin-right: 0px;
+    margin-left: 50px;
+    width: 25%;
 }
 
-header a {
+header navleft a {
     color: #000000;
-    margin-right: 10px;
-    margin-left: 30px;
+    margin-right: 15px;
+    margin-left: 0px;
     text-decoration: none;
 }
+
+header navright {
+    margin-top: 50px;
+    margin-right:0px;
+    margin-left: 20px;
+    width: 29%;
+    float:left;
+}
+
+header navright a {
+    color: #000000;
+    margin-right: 15px;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+/*header a {
+    color: #000000;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-decoration: none;
+}*/
 
 header .disable-me {
      pointer-events: none;
@@ -93,9 +102,9 @@ article {
 
 /*figure w/ caption in the article container */
 figure {
-    width: 30%;
-    height: 345px;
-    border:solid;
+    width: 50%;
+    height: 400px;
+    margin-left:200px
 } /* makes figure container w/ image responsive */
 
 figure img {
@@ -104,31 +113,7 @@ figure img {
    /* background: #000000; */
     width:100%;
 } /* styles the image. */
-
-/* Floating the section container with the article text to the right */
-section {
-    width: 65%;
-    height: 345px;
-    float:right;
-    border: solid;
-    margin-right:10px;
-}
-
-/* More specific text design in the section container */
-section h1 {
-	color: #111111;
-    font-family: georgia, serif;
-    font-size: 36px;
-    line-height: 44px    
-}
-
-section h2 {
-    color: #111111;
-    font-family: georgia, serif;
-    line-height: 44px
-    
-}  
-  
+ 
 footer {
     clear: both;
     color: #000000;
