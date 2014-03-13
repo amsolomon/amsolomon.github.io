@@ -41,6 +41,7 @@ header img {
     width:25%;
 }
 
+/*Googled code for highlighting header img log - http://www.cssdrive.com/index.php/examples/exampleitem/highlight_image_opacity/*/
 .highlightit img{
 filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
 -moz-opacity: 1;
