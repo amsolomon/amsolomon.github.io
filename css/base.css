@@ -16,7 +16,8 @@ div {
     border-style: solid;
     border-width: 5px;
     margin-left: 20%;
-    margin-right: 20%;        
+    margin-right: 20%;
+    margin-top: 3%;
 }
 
 p {
@@ -46,8 +47,9 @@ header nav {
     margin-right: 10px;
     width: 65%;
     float:right;
-    
+    /*background-color: #c0c0c0;*/
 }
+
 
 header a {
     color: #000000;
@@ -56,8 +58,14 @@ header a {
     text-decoration: none;
 }
 
+header .disable-me {
+    pointer-events: none;
+}
+
 header a:link {}
-header a:visited {}
+header a:visited {
+    text-decoration: underline;
+}
 header a:hover {
     color: #cccccc;          
 } 
@@ -65,7 +73,9 @@ header a:active {
     text-decoration: underline;
 }
 
-header a:focus {}
+header a:focus {
+    text-decoration: underline
+}
 
 /*article container that includes an img w/in a fig, and a section container.*/
 
@@ -79,7 +89,7 @@ article {
 figure {
     width: 30%;
     height: 345px;
-    border:solid;
+    /*border:solid;*/
 } /* makes figure container w/ image responsive */
 
 figure img {
@@ -89,12 +99,17 @@ figure img {
     width:100%;
 } /* styles the image. */
 
+.indeximg {
+    margin-left: 200px;
+    width: 50%;
+}
+
 /* Floating the section container with the article text to the right */
 section {
     width: 65%;
     height: 345px;
     float:right;
-    border: solid;
+    /*border: solid;*/
     margin-right:10px;
 }
 
