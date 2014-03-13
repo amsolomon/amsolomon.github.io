@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 5px;
+    /*padding: 5px;*/
 }    
 
 body {
@@ -10,13 +10,17 @@ body {
     font-family: georgia, serif;
     font-size: 16px;
     line-height: 24px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div {
     border-style: solid;
     border-width: 5px;
-    margin-left: 20%;
-    margin-right: 20%;        
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 960px;
 }
 
 p {
@@ -24,14 +28,18 @@ p {
 }    
 
 /*header elements */
+
 header {
-    float: left
+    margin-left: auto;
+    margin-right: auto;
     background-color: #ffffff;
     color: #ffffff;
     height: 150px;
-    width: 100%
-    
-}    
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    /*padding: 10px;*/
+}
 
 header img {
     float: left;
@@ -86,38 +94,52 @@ header a:focus {}
 
 /*article container that includes an img w/in a fig, and a section container.*/
 
-article {
+/*article {
     float: left;
     width: 100%;
-    padding 0 10px 0px 10px;
+    /*padding 0 10px 0px 10px;*/
 }   
 
 /*figure w/ caption in the article container */
+/*figure {
+    width: 40%;
+    height:400px;
+    border:solid;*/
+} /* makes figure container w/ image responsive */
+
+/*figure w/ caption in the article container */
 figure {
-    width: 30%;
-    height: 345px;
-    border:solid;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    /*height:400px;*/
+   text-align: center;
+    /*clear:right;*/
+    
 } /* makes figure container w/ image responsive */
 
 figure img {
+    /*padding: 100px;*/
+    width:30%;
+    /*margin-left: auto;
+    margin-right: auto;*/
+
+/*figure img {
     float: left;
     padding: 5px;
-   /* background: #000000; */
+   /* background: #000000;
     width:100%;
-} /* styles the image. */
+} /* styles the image.
 
-figure .about {
-    width:50%;
-    height:100px;
-}
 
-/* Floating the section container with the article text to the right */
-section {
-    width: 65%;
+/* Floating the section container with the article text to the right*/
+/*section {
+    width: 40%;
     height: 345px;
     float:right;
     border: solid;
-    margin-right:10px;
+    margin-right:10px;*/
 }
 
 /* More specific text design in the section container */
@@ -140,6 +162,11 @@ footer {
     color: #000000;
     /*border-bottom-style:inset*/
     padding: 0 10px 0 10px;
+}
+
+socialbar img {
+    width:20%;
+    float:left;
 }
 
 @media screen and (max-width: 600px)
