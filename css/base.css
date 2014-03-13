@@ -106,6 +106,11 @@ figure img {
     width:100%;
 } /* styles the image. */
 
+figure .about {
+    width:50%;
+    height:100px;
+}
+
 /* Floating the section container with the article text to the right */
 section {
     width: 65%;
