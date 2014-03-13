@@ -25,13 +25,12 @@ p {
 }    
 
 /*header elements */
-header .pages {
-    float: left
+header {
+    float: left;
     background-color: #ffffff;
     color: #ffffff;
     height: 150px;
-    width: 100%
-    
+    width: 100%    
 }    
 
 header img {
@@ -42,8 +41,10 @@ header img {
     width:25%;
 }
 
-.centerlogo {
-    margin-left: 200px;
+/*.centerlogo {
+    margin-left: 0px;
+    width: 25%;
+    float:left;*/
 
 }
     
@@ -51,16 +52,74 @@ header nav {
     margin-top: 50px;
     margin-right: 10px;
     width: 65%;
-    float:right;
+    float: right;
     /*background-color: #c0c0c0;*/
 }
 
-header aside {
+/* header aside {
     margin-top: 50px;
-    margin-right: 10px;
-    width: 65%;
-    float:right;
+    margin-right: 0px;
+    width: 30%;
+    float:left;
+    
 }
+
+header holder {
+    margin-top: 30px;
+    margin-right: 0px;
+    width: 40%;
+    float:left;
+}
+
+header aside a {
+    color: #000000;
+    margin-right: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+header aside .disable-me {
+    pointer-events: none;
+}
+
+header aside a:link {}
+header aside a:visited {
+    text-decoration: underline;
+}
+header aside a:hover {
+    color: #cccccc;          
+} 
+header aside a:active {
+    text-decoration: underline;
+}
+
+header aside a:focus {
+    text-decoration: underline
+        
+header holder a {
+    color: #000000;
+    margin-right: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+header holder .disable-me {
+    pointer-events: none;
+}
+
+header holder a:link {}
+header a:visited {
+    text-decoration: underline;
+}
+header holder a:hover {
+    color: #cccccc;          
+} 
+header holder a:active {
+    text-decoration: underline;
+}
+
+header holder a:focus {
+    text-decoration: underline */
 
 /*.multinav1 {
     width: 100%;
