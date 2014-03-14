@@ -52,7 +52,7 @@ header img {
     
 header navleft {
     float:left;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-right: auto;
     margin-left: auto;
     width: 35%;
@@ -63,10 +63,11 @@ header navleft a {
     margin-right: auto;
     margin-left: 40px;
     text-decoration: none;
+    font-size: 18px;
 }
 
 header navright {
-    margin-top: 50px;
+    margin-top: 70px;
     margin-right:auto;
     margin-left: auto;
     width: 35%;
@@ -79,6 +80,7 @@ header navright a {
     margin-left: auto;
     text-decoration: none;
     float:right;
+    font-size: 18px;
 }
 
 /*header a {
@@ -135,6 +137,8 @@ footer {
     clear: both;
     color: #000000;
     padding: 0 10px 0 10px;
+    text-align:center;
+    
 }
 
 @media screen and (max-width: 600px)
