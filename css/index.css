@@ -123,18 +123,17 @@ figure {
 } /* makes figure container w/ image responsive */
 
 figure img {
-    /*padding: 100px;*/
+    /* padding: 100px; */
     width:60%;
     margin-left: auto;
-    margin-right: auto;
-    
-    
-} /* styles the image. */
+    margin-right: auto;    
+} 
+
+/* styles the image. */
  
 footer {
     clear: both;
     color: #000000;
-    /*border-bottom-style:inset*/
     padding: 0 10px 0 10px;
 }
 

@@ -1,8 +1,11 @@
-/*general element styles. */
+/* general element styles. */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 5px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }    
 
 body {
@@ -16,14 +19,17 @@ div {
     border-style: solid;
     border-width: 5px;
     margin-left: 20%;
-    margin-right: 20%;        
+    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
 }
 
 p {
     margin-bottom: 16px;
 }    
 
-/*header elements */
+/* header elements */
 header {
     float: left
     background-color: #ffffff;
@@ -36,7 +42,7 @@ header {
 header img {
     float: left;
     padding: 0px; /* TRouBLe */
-    *margin-right: 0px;
+    margin-right: 0px;
     margin-left: 5px;
     width:25%;
 }
@@ -83,64 +89,34 @@ header a:active {
 
 header a:focus {}
 
-/*article container that includes an img w/in a fig, and a section container.*/
-
-article {
-    float: left;
-    width: 100%;
-    padding 0 10px 0px 10px;
-}   
-
 /*figure w/ caption in the article container */
 figure {
+    /* float:left; */
+    margin-left: 0px;
+    /*margin-right: auto;*/
     width: 30%;
-    height: 345px;
-    border:solid;
+    /*height:400px;*/
+   /* text-align: center; */
+    
 } /* makes figure container w/ image responsive */
 
 figure img {
-    float: left;
-    padding: 5px;
-   /* background: #000000; */
+    padding: 0px;
     width:100%;
-} /* styles the image. */
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-style: solid;
+    border-width: 5px;
+} 
 
-/* Floating the section container with the article text to the right */
-section {
-    width: 65%;
-    height: 345px;
-    float:right;
-    border: solid;
-    margin-right:10px;
-}
-
-/* More specific text design in the section container */
-section h1 {
-	color: #111111;
-    font-family: georgia, serif;
-    font-size: 36px;
-    line-height: 44px    
-}
-
-section h2 {
-    color: #111111;
-    font-family: georgia, serif;
-    line-height: 44px
-    
-}  
-  
+/* styles the image. */
+ 
 footer {
     clear: both;
     color: #000000;
-    /*border-bottom-style:inset*/
     padding: 0 10px 0 10px;
 }
 
 @media screen and (max-width: 600px)
     
-    nav {
-        
-    
-    
-    
-}
+    nav {}
