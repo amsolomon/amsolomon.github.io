@@ -137,11 +137,12 @@ h1 {
 
 socialbar {
     width 30%;
+    float: left
     clear:both;
 }
 
 socialbar img {
-    width: 10%
+    width: 5%
 }
 
 @media screen and (max-width: 600px)
