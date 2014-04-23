@@ -6,7 +6,7 @@
 }    
 
 body {
-    background-color: #252525;
+    background-color: #ffffff;
     font-family: georgia, serif;
     font-size: 16px;
     line-height: 24px;
@@ -55,6 +55,7 @@ header nav {
     float:left;
     padding: 0px;
     margin-top: 10px;
+    margin-bottom: 5px;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
@@ -66,31 +67,10 @@ header nav a {
     margin-left: 40px;
     text-decoration: none;
     font-size: 18px;
+    border: solid;
+    border-width: 2px;
+    padding: 3px;
 }
-
-/* header navright {
-    margin-top: 70px;
-    margin-right:auto;
-    margin-left: auto;
-    width: 35%;
-    float:right;
-}
-
-header navright a {
-    color: #000000;
-    margin-right: 40px;
-    margin-left: auto;
-    text-decoration: none;
-    float:right;
-    font-size: 18px;
-}*/
-
-/*header a {
-    color: #000000;
-    margin-right: 0px;
-    margin-left: 0px;
-    text-decoration: none;
-}*/
 
 header .disable-me {
      pointer-events: none;
