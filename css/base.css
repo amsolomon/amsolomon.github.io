@@ -95,15 +95,14 @@ header a:active {
 
 header a:focus {}
 
-subnav {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 20px;
-    margin-bottom: 50px;
-    width: 90%;
-    float: right;
+ subnav {
+     border: solid;
+     border-width: 2px;
+     margin-left: 200px;
+     margin-bottom: : 1000px;
+}
 
-subnav {
+subnav a {
     color: #000000;
     margin-right: 20px;
     margin-left: 30px;
@@ -117,7 +116,7 @@ article .disable-me {
 
 /*article a:link {}
 article a:visited {}*/
-article a:hover {
+/*article a:hover {
     color: #cccccc;          
 } 
 article a:active {
