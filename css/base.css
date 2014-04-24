@@ -82,6 +82,7 @@ nav a {
 
 header .disable-me {
      pointer-events: none;
+    color: #888888;
 }
 
 /*header a:link {}
@@ -98,25 +99,29 @@ header a:focus {}
  subnav {
      border: solid;
      border-width: 2px;
-     margin-left: 200px;
-     margin-bottom: : 1000px;
+     margin-left: 315px;
 }
 
 subnav a {
     color: #000000;
     margin-right: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
     text-decoration: none;
     font-size: 18px;
 }
 
 article .disable-me {
      pointer-events: none;
+     color: #888888;
+}
+
+article .disable-me1 {
+     color: #888888;
 }
 
 /*article a:link {}
 article a:visited {}*/
-/*article a:hover {
+article a:hover {
     color: #cccccc;          
 } 
 article a:active {
