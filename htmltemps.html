@@ -60,9 +60,62 @@ We will have atleast two sections on the doc, the <em>head</em> and the <em>body
     <!-- if a file is inside another folder in our main folder, image must be sorced from correct Path. don't want file names with space charachters. -->
 <img src="http://fillmurray.com/320/300" width="50%" alt="Bill Murry" title="fun example pic" />
     <!--API asking the site to send back a type of photo with certain size parameters-->
-    <p> Image tags are self closing. <code>src=</code> is the attribute for source. This source can be a file saved in the sites folder or a link from another site.
+<p> 
+Image tags are self closing. <code>src=</code> is the attribute for source. This source can be a file saved in the sites folder or a link from another site.
 </p>
-<p>size or width can be specified in the code line for the image <code>width="100%"</code> for relative or flexible design or for more staic code width="200" height="200" - with out these parameterss the site draws bax first for img to fill in.</code></p>    
-<p>all images should have an <code>alt="img-name"</code> for screen readers or if the link is broken a box will load with the name of the file inside. can also add a <code>title="description"</code> for tool tips hover boxes and so the images are easier found on google. The title does not replace the alt code, the alt is required.</p>    
+<p>
+Size or width can be specified in the code line for the image <code>width="100%"</code> for relative or flexible design or for more staic code <code>width="200" height="200"</code> - with out these parameterss the site draws bax first for image to fill in.
+</p>    
+<p>
+All images should have an <code>alt="img-name"</code> for screen readers or if the link is broken a box will load with the name of the file inside. can also add a <code>title="description"</code> for tool tips hover boxes and so the images are easier found on google. The title does not replace the alt code, the alt is required.
+</p> 
+
+<h2>Lists and Tables</h2>
+<p>
+<strong>Lists</strong> needed list information ordered or unordered, bullet points or numbers, and defonitional, which have both a term and a definition. Lists are used in navigation bars, possible in footers an a few other places.
+</p>
+<p>  
+List use <em>Container Tags</em>
+    
+
+<ul> <!-- unordered list code -->
+    <li>alpha</li>
+    <li>beta</li>
+    <li>gamma</li>
+</ul>
+
+<ol> <!-- ordered list -->
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+</ol>
+
+<dl>
+    <dt>Term</dt>
+    <dd>Definition</dd>
+    <dt>Term</dt>
+    <dd>Definition</dd>
+    <dt>Term</dt>
+    <dd>Definition</dd>
+</dl>    
+<p> 
+For tabular data, not for navigation or layout. To make <strong>Tables</strong> there is a double container where we must specify each row and then inside the row we can put as many data cells as we want.
+</p>
+    
+<table>
+    <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+        <td>D</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+</table>
+    
 </body>  
 </html>
