@@ -3,12 +3,13 @@
 <!-- tells the web broswer it will be encountering a doc type of html and where it starts and stops-->
     
 <head>
-<title>HTML Rules</title>    
+<title>Coding Rules</title>
+<link rel="stylesheet" href="css/base2.css" />    
 </head>
    
 
 <body>  
-<h1>Tag References</h1>  
+<h1>HTML Tag References</h1>  
 
 <!--<h1></h1> is the Main Heading Text tag-->
 
@@ -55,9 +56,12 @@ We will have atleast two sections on the doc, the <em>head</em> and the <em>body
 <p>Be sure to use an HTML validation site to check to code for errors. validate, fix error, validate, fix error, repeat.
 </p>
 
-<h2>Images</h2>
+<h2>Images</h2>    
+<h3>Internal Image Link</h3>
 <img src="img/solomonpress.jpg" width="50%" alt="Solomon" title="bio pic" />
     <!-- if a file is inside another folder in our main folder, image must be sorced from correct Path. don't want file names with space charachters. -->
+    
+<h3>External Image Link</h3>
 <img src="http://fillmurray.com/320/300" width="50%" alt="Bill Murry" title="fun example pic" />
     <!--API asking the site to send back a type of photo with certain size parameters-->
 <p> 
@@ -76,20 +80,23 @@ All images should have an <code>alt="img-name"</code> for screen readers or if t
 </p>
 <p>  
 List use <em>Container Tags</em>
+</p>
     
-
+<h3>unordered list</h3>
 <ul> <!-- unordered list code -->
     <li>alpha</li>
     <li>beta</li>
     <li>gamma</li>
 </ul>
-
+    
+<h3>ordered list</h3>
 <ol> <!-- ordered list -->
     <li>one</li>
     <li>two</li>
     <li>three</li>
 </ol>
-
+    
+<h3>definitional list</h3>
 <dl>
     <dt>Term</dt>
     <dd>Definition</dd>
@@ -101,7 +108,8 @@ List use <em>Container Tags</em>
 <p> 
 For tabular data, not for navigation or layout. To make <strong>Tables</strong> there is a double container where we must specify each row and then inside the row we can put as many data cells as we want.
 </p>
-    
+ 
+ <h3>Table</h3>
 <table>
     <tr>
         <td>A</td>
@@ -116,6 +124,44 @@ For tabular data, not for navigation or layout. To make <strong>Tables</strong> 
         <td>4</td>
     </tr>
 </table>
+
+<h1>CSS Rules</h1> 
+<p>
+CSS - Cascading Style sheet - you apply code generall and they fall down tho the things inside it. Interpreted top down like HTML. General at top and more specific at bottom. Dont use multiple selectors, consolidate all your declerations into the same selector.
+</p>
+<p>
+   Creating declerations that apply to everything that matcvhes so changes can be made in one step. You must creat a folder called css inside your project folder. The inside this new CSS folder you must creat a file named base.css. After typing out the code to ajust your visuals, you must link it to the HTML. /* css comments*/
+</p>
+<p>
+In the Head put <code>link rel="stylesheet" href="css/base.css" /></code>. Colors are often not text but <em>hexidecimal</em> values.
+</p>
+<p>    
+Need a <em>Selector</em>, a <em>Property</em> and a <em>Value</em>.
+</p>
+    <code> 
+       <p> h1 { </p>
+        <p>color: red;</p>
+        <p>}</p>
+    </code>
+<p>
+Border Box Model
+</p>
+<code>
+<p>img{</p>
+<p>border: 5px solid #cccccc; /*grey*/</p></code>
+<p><code>    
+margin: 0 5% 0  5%; </code>  - adds space outside.</p>
+<p><code>padding: 5px;</code> -adds space on the inside but adds to the over all width use TRouBLe - Top Right Bottom Left.</p>   
+<code><p>width: 90%;</p>
+<p>}</p>
+</code>
+
+<p>Can slap this on the top of most CSS pages you create. Star means select everything, and the border box property makes its so the widths dont add more than 100%.</p>
+   <p> *{</p>
+   <p> box-sizing: border-box;</p>
+<p>}</p>
+    
+<p>Skiping List styletype</p>    
     
 </body>  
 </html>
